@@ -1,4 +1,4 @@
-# 📂 Universal Folder Sorter
+# 📂 Download Folder Sorter
 
 > One small script, five languages, zero clutter. Sorts any folder into tidy
 > type-based subfolders — **Music, Image, Video, Code, …** — without ever
@@ -73,7 +73,7 @@ Downloads/
 
 ```sh
 # clone the repo (or just download sorter.sh)
-git clone https://github.com/isme8349-cmd/universal-folder-sorter.git
+git clone https://github.com/isme8349-cmd/download-folder-sorter.git
 cd universal-folder-sorter
 chmod +x sorter.sh
 
@@ -81,7 +81,7 @@ chmod +x sorter.sh
 ./sorter.sh ~/Downloads
 
 # or run it straight from GitHub, without cloning:
-bash <(curl -fsSL https://raw.githubusercontent.com/isme8349-cmd/universal-folder-sorter/main/sorter.sh) ~/Downloads
+bash <(curl -fsSL https://raw.githubusercontent.com/isme8349-cmd/download-folder-sorter/main/sorter.sh) ~/Downloads
 ```
 
 > 📱 **Termux (Android):** run `termux-setup-storage` once to grant
@@ -190,28 +190,6 @@ Rules of thumb:
 - Case-insensitive matching and multi-dot extensions (`a.tar.gz` → Archives).
 - Summary report and proper exit codes.
 
-## 🇮🇷 شروع سریع (فارسی)
-
-این اسکریپت فایل‌های پوشه‌ی دانلودها را بر اساس نوعشان در پوشه‌های جدا
-(موسیقی، تصویر، ویدیو، کد، آرشیو و …) مرتب می‌کند — بدون اینکه هیچ فایلی
-دست‌خورد شود.
-
-```sh
-# لینوکس / مک / ترموکس
-./sorter.sh ~/Downloads
-./sorter.sh ~/Downloads --dry-run   # فقط نمایش، بدون جابه‌جایی
-```
-
-```powershell
-# ویندوز (پاورشل)
-.\sorter.ps1 C:\Users\you\Downloads -DryRun
-```
-
-```sh
-# پایتون / PHP
-python3 sorter.py ~/Downloads
-php sorter.php ~/Downloads
-```
 
 ## 📄 License
 
