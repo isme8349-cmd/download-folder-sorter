@@ -74,7 +74,7 @@ Downloads/
 ```sh
 # clone the repo (or just download sorter.sh)
 git clone https://github.com/isme8349-cmd/download-folder-sorter.git
-cd universal-folder-sorter
+cd download-folder-sorter
 chmod +x sorter.sh
 
 # sort your downloads
